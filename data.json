@@ -1,0 +1,920 @@
+[
+    {
+        "nombre": "Seaya Andromeda",
+        "ciudad": "Madrid",
+        "direccion": "Calle Alcalá, 54, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.419056,
+            "longitud": -3.688344
+        },
+        "informacion": {
+            "tamaño_fondo": "€300,000,000",
+            "fecha_creacion": "4-jul-2024",
+            "trimestre": "Q3-2024",
+            "año": "2024",
+            "sectores": ["Climate tech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "KFund",
+        "ciudad": "Madrid",
+        "direccion": "Calle Juan Bravo, 10, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.432500,
+            "longitud": -3.683056
+        },
+        "informacion": {
+            "tamaño_fondo": "€70,000,000",
+            "fecha_creacion": "17-jun-2024",
+            "trimestre": "Q2-2024",
+            "año": "2024",
+            "sectores": ["AI", "Data Analytics", "Edge Computing", "5G connectivity", "Blockchain", "Cloud Services"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "SC Net Zero Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 39, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.426111,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€125,000,000",
+            "fecha_creacion": "6-jun-2024",
+            "trimestre": "Q2-2024",
+            "año": "2024",
+            "sectores": ["Climate tech", "Decarbonization"],
+            "LPs_destacados": ["Repsol", "Fond-ICO Next Tech (Axis-Instituto de Crédito Oficial)", "Institut Català de Finances"]
+        }
+    },
+    {
+        "nombre": "Aldea Ventures",
+        "ciudad": "Barcelona",
+        "direccion": "Passeig de Gràcia, 54, 08007 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.391111,
+            "longitud": 2.165000
+        },
+        "informacion": {
+            "tamaño_fondo": "€125,000,000",
+            "fecha_creacion": "5-feb-2024",
+            "trimestre": "Q1-2024",
+            "año": "2024",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Encomenda Capital",
+        "ciudad": "Barcelona",
+        "direccion": "Carrer de Pau Claris, 138, 08009 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.391944,
+            "longitud": 2.170833
+        },
+        "informacion": {
+            "tamaño_fondo": "€15,000,000",
+            "fecha_creacion": "10-ene-2024",
+            "trimestre": "Q1-2024",
+            "año": "2024",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Cardumen Capital",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 94, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.435278,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€105,000,000",
+            "fecha_creacion": "15-nov-2023",
+            "trimestre": "Q4-2023",
+            "año": "2023",
+            "sectores": ["Deeptech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Yellow Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Goya, 47, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.426944,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€30,000,000",
+            "fecha_creacion": "7-nov-2023",
+            "trimestre": "Q4-2023",
+            "año": "2023",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Swanlaab AgriFood",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Almagro, 3, 28010 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.429167,
+            "longitud": -3.692500
+        },
+        "informacion": {
+            "tamaño_fondo": "€40,000,000",
+            "fecha_creacion": "10-oct-2023",
+            "trimestre": "Q4-2023",
+            "año": "2023",
+            "sectores": ["Agritech", "Foodtech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Swanlaab",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Almagro, 3, 28010 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.429167,
+            "longitud": -3.692500
+        },
+        "informacion": {
+            "tamaño_fondo": "€45,000,000",
+            "fecha_creacion": "6-jun-2023",
+            "trimestre": "Q2-2023",
+            "año": "2023",
+            "sectores": ["B2B"],
+            "LPs_destacados": ["Fond-ICO Global", "BBVA"]
+        }
+    },
+    {
+        "nombre": "BeAble",
+        "ciudad": "Madrid",
+        "direccion": "Paseo de la Castellana, 93, 28046 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.448611,
+            "longitud": -3.692500
+        },
+        "informacion": {
+            "tamaño_fondo": "€50,000,000",
+            "fecha_creacion": "18-may-2023",
+            "trimestre": "Q2-2023",
+            "año": "2023",
+            "sectores": ["Deep science"],
+            "LPs_destacados": ["CDTI/Innvierte", "BBVA"]
+        }
+    },
+    {
+        "nombre": "K Fund Leadwind",
+        "ciudad": "Madrid",
+        "direccion": "Calle Juan Bravo, 10, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.432500,
+            "longitud": -3.683056
+        },
+        "informacion": {
+            "tamaño_fondo": "€237,000,000",
+            "fecha_creacion": "10-may-2023",
+            "trimestre": "Q2-2023",
+            "año": "2023",
+            "sectores": ["AI", "IoT", "5G", "AR", "Cloud"],
+            "LPs_destacados": ["Telefónica", "Official Credit Institute (ICO)"]
+        }
+    },
+    {
+        "nombre": "Bullnet Capital",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 55, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.430000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€40,000,000",
+            "fecha_creacion": "20-mar-2023",
+            "trimestre": "Q1-2023",
+            "año": "2023",
+            "sectores": ["Deeptech"],
+            "LPs_destacados": ["Centro para el Desarrollo Tecnológico Industrial (CDTI)", "Bruno Entrecanales"]
+        }
+    },
+    {
+        "nombre": "GoHub Ventures",
+        "ciudad": "Valencia",
+        "direccion": "Calle de la Paz, 1, 46003 Valencia, España",
+        "coordenadas": {
+            "latitud": 39.474722,
+            "longitud": -0.375000
+        },
+        "informacion": {
+            "tamaño_fondo": "€60,000,000",
+            "fecha_creacion": "3-nov-2022",
+            "trimestre": "Q4-2022",
+            "año": "2022",
+            "sectores": ["B2B", "Deeptech"],
+            "LPs_destacados": ["Global Omnium"]
+        }
+    },
+    {
+        "nombre": "Grow Venture Partners",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Alcalá, 61, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.421111,
+            "longitud": -3.688611
+        },
+        "informacion": {
+            "tamaño_fondo": "€5,000,000",
+            "fecha_creacion": "26-jul-2022",
+            "trimestre": "Q3-2022",
+            "año": "2022",
+            "sectores": ["Deeptech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "SC Net Zero Tech Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 39, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.426111,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€50,000,000",
+            "fecha_creacion": "7-jul-2022",
+            "trimestre": "Q3-2022",
+            "año": "2022",
+            "sectores": ["Cleantech", "Climatetech"],
+            "LPs_destacados": ["Repsol"]
+        }
+    },
+    {
+        "nombre": "Clave Capital",
+        "ciudad": "Pamplona",
+        "direccion": "Avenida de Carlos III el Noble, 36, 31003 Pamplona, España",
+        "coordenadas": {
+            "latitud": 42.814167,
+            "longitud": -1.643056
+        },
+        "informacion": {
+            "tamaño_fondo": "€80,000,000",
+            "fecha_creacion": "30-jun-2022",
+            "trimestre": "Q2-2022",
+            "año": "2022",
+            "sectores": ["Medtech", "Healthtech"],
+            "LPs_destacados": ["CDTI"]
+        }
+    },
+    {
+        "nombre": "Mutua Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Paseo de la Castellana, 33, 28046 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.438611,
+            "longitud": -3.689167
+        },
+        "informacion": {
+            "tamaño_fondo": "€30,000,000",
+            "fecha_creacion": "22-jun-2022",
+            "trimestre": "Q2-2022",
+            "año": "2022",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Mutua Madrileña"]
+        }
+    },
+    {
+        "nombre": "Seaya Andromeda",
+        "ciudad": "Madrid",
+        "direccion": "Calle Alcalá, 54, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.419056,
+            "longitud": -3.688344
+        },
+        "informacion": {
+            "tamaño_fondo": "€130,000,000",
+            "fecha_creacion": "5-mar-2022",
+            "trimestre": "Q1-2022",
+            "año": "2022",
+            "sectores": ["GreenTech", "Circular Economy", "Agritech", "Sustainable Food Value Chain"],
+            "LPs_destacados": ["Iberdrola", "Nortia", "Fond-ICO Next Tech"]
+        }
+    },
+    {
+        "nombre": "Iris Ventures",
+        "ciudad": "Barcelona",
+        "direccion": "Avinguda Diagonal, 640, 08017 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.391944,
+            "longitud": 2.147500
+        },
+        "informacion": {
+            "tamaño_fondo": "€100,000,000",
+            "fecha_creacion": "9-Dec-2021",
+            "trimestre": "Q4-2021",
+            "año": "2021",
+            "sectores": ["Consumer goods", "D2C brands"],
+            "LPs_destacados": ["Altamar"]
+        }
+    },
+    {
+        "nombre": "Eatable Adventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 110, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.435000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€50,000,000",
+            "fecha_creacion": "4-oct-2021",
+            "trimestre": "Q4-2021",
+            "año": "2021",
+            "sectores": ["Foodtech", "Agritech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Klima Energy Transition Fund",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 130, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.438611,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€210,000,000",
+            "fecha_creacion": "8-jun-2021",
+            "trimestre": "Q2-2021",
+            "año": "2021",
+            "sectores": ["Sustainability", "Climate-tech", "Energy"],
+            "LPs_destacados": ["Alantra", "Enagas", "European Investment Fund (EIF)"]
+        }
+    },
+    {
+        "nombre": "Think Bigger Capital",
+        "ciudad": "Valencia",
+        "direccion": "Calle de la Paz, 2, 46003 Valencia, España",
+        "coordenadas": {
+            "latitud": 39.474722,
+            "longitud": -0.374722
+        },
+        "informacion": {
+            "tamaño_fondo": "€24,000,000",
+            "fecha_creacion": "13-nov-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Fond-ICO", "IVF (Institute Valencià de Finances)"]
+        }
+    },
+    {
+        "nombre": "All Iron Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Jorge Juan, 29, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.425556,
+            "longitud": -3.683889
+        },
+        "informacion": {
+            "tamaño_fondo": "€43,500,000 (Opp) / €66,500,000 (I)",
+            "fecha_creacion": "5-nov-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Marketplaces"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Telefónica Tech Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle Gran Vía, 28, 28013 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.420556,
+            "longitud": -3.705000
+        },
+        "informacion": {
+            "tamaño_fondo": "No disponible",
+            "fecha_creacion": "22-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Cybersecurity"],
+            "LPs_destacados": ["Telefonica"]
+        }
+    },
+    {
+        "nombre": "Samaipata",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Hermosilla, 48, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.425278,
+            "longitud": -3.684722
+        },
+        "informacion": {
+            "tamaño_fondo": "€75,000,000",
+            "fecha_creacion": "19-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Marketplaces"],
+            "LPs_destacados": ["European Investment Fund (EIF)", "Institut Catalá de Finances (ICF)"]
+        }
+    },
+    {
+        "nombre": "Agrolimen Ventures",
+        "ciudad": "Barcelona",
+        "direccion": "Carrer d'Aribau, 198, 08036 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.388889,
+            "longitud": 2.160000
+        },
+        "informacion": {
+            "tamaño_fondo": "No disponible",
+            "fecha_creacion": "16-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Agritech", "Foodtech"],
+            "LPs_destacados": ["Agrolimen"]
+        }
+    },
+    {
+        "nombre": "Kibo Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 140, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.438611,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€55,000,000 (Opp) / €100,000,000 (III)",
+            "fecha_creacion": "6-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["European Investment Fund (EIF)", "Telefónica", "La Caixa", "Mutua", "CDTI", "Isomer Capital", "Cofides", "XES Galicia", "ICF", "Semapa", "Tressis"]
+        }
+    },
+    {
+        "nombre": "Seaya Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle Alcalá, 54, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.419056,
+            "longitud": -3.688344
+        },
+        "informacion": {
+            "tamaño_fondo": "€165,000,000",
+            "fecha_creacion": "5-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["European Investment Fund (EIF)", "Banco Santander", "Cathay Innovation"]
+        }
+    },
+    {
+        "nombre": "Capital Energy Quantum",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Emilio Vargas, 4, 28043 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.443056,
+            "longitud": -3.662500
+        },
+        "informacion": {
+            "tamaño_fondo": "€20,000,000",
+            "fecha_creacion": "1-oct-2020",
+            "trimestre": "Q4-2020",
+            "año": "2020",
+            "sectores": ["Energy"],
+            "LPs_destacados": ["Capital Energy"]
+        }
+    },
+    {
+        "nombre": "K Fund",
+        "ciudad": "Madrid",
+        "direccion": "Calle Juan Bravo, 10, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.432500,
+            "longitud": -3.683056
+        },
+        "informacion": {
+            "tamaño_fondo": "€70,000,000",
+            "fecha_creacion": "7-jul-2020",
+            "trimestre": "Q3-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "The Valley Venture Capital",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Hermosilla, 48, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.425278,
+            "longitud": -3.684722
+        },
+        "informacion": {
+            "tamaño_fondo": "€15,000,000",
+            "fecha_creacion": "6-may-2020",
+            "trimestre": "Q2-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Bolsa Social Impacto",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 140, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.438611,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€10,000,000",
+            "fecha_creacion": "10-Apr-2020",
+            "trimestre": "Q2-2020",
+            "año": "2020",
+            "sectores": ["Impact"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Draper B1",
+        "ciudad": "Valencia",
+        "direccion": "Calle Colón, 60, 46004 Valencia, España",
+        "coordenadas": {
+            "latitud": 39.469750,
+            "longitud": -0.375190
+        },
+        "informacion": {
+            "tamaño_fondo": "€11,300,000",
+            "fecha_creacion": "27-feb-2020",
+            "trimestre": "Q1-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Instituto Valenciano de Finanzas (IVF)", "Fond-ICO", "Tim Draper"]
+        }
+    },
+    {
+        "nombre": "Nina Capital",
+        "ciudad": "Barcelona",
+        "direccion": "Carrer de Pau Claris, 138, 08009 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.391944,
+            "longitud": 2.170833
+        },
+        "informacion": {
+            "tamaño_fondo": "€15,000,000",
+            "fecha_creacion": "17-feb-2020",
+            "trimestre": "Q1-2020",
+            "año": "2020",
+            "sectores": ["Health tech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Sabadell Selección Ventures",
+        "ciudad": "Barcelona",
+        "direccion": "Plaza de Sant Jaume, 5, 08002 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.387111,
+            "longitud": 2.170111
+        },
+        "informacion": {
+            "tamaño_fondo": "€60,000,000",
+            "fecha_creacion": "4-feb-2020",
+            "trimestre": "Q1-2020",
+            "año": "2020",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Banco Sabadell clients"]
+        }
+    },
+    {
+        "nombre": "Bankia Fintech Venture",
+        "ciudad": "Madrid",
+        "direccion": "Paseo de la Castellana, 189, 28046 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.462056,
+            "longitud": -3.687333
+        },
+        "informacion": {
+            "tamaño_fondo": "€20,000,000",
+            "fecha_creacion": "17-oct-2019",
+            "trimestre": "Q4-2019",
+            "año": "2019",
+            "sectores": ["Fintech", "Regtech", "Insure-tech", "Cyber-security"],
+            "LPs_destacados": ["Bankia"]
+        }
+    },
+    {
+        "nombre": "JME Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle del Príncipe de Vergara, 109, 28002 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.441111,
+            "longitud": -3.678611
+        },
+        "informacion": {
+            "tamaño_fondo": "€60,000,000",
+            "fecha_creacion": "14-oct-2019",
+            "trimestre": "Q4-2019",
+            "año": "2019",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["José Manuel Entrecanales", "Fond-ICO"]
+        }
+    },
+    {
+        "nombre": "People & Planet Partners",
+        "ciudad": "Madrid",
+        "direccion": "Calle Mayor, 43, 28013 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.415278,
+            "longitud": -3.708333
+        },
+        "informacion": {
+            "tamaño_fondo": "€5,400,000",
+            "fecha_creacion": "4-oct-2019",
+            "trimestre": "Q4-2019",
+            "año": "2019",
+            "sectores": ["Social & environmental impact", "Impact"],
+            "LPs_destacados": ["Ayuntamiento de Madrid", "Instituto Valenciano de Finanzas"]
+        }
+    },
+    {
+        "nombre": "Conexo Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 55, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.430000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€20,000,000",
+            "fecha_creacion": "4-oct-2019",
+            "trimestre": "Q4-2019",
+            "año": "2019",
+            "sectores": ["Software", "AI", "Marketplaces", "Cyber-security", "Fintech"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Adara Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 39, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.426111,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€65,000,000",
+            "fecha_creacion": "12-jul-2019",
+            "trimestre": "Q3-2019",
+            "año": "2019",
+            "sectores": ["Deeptech"],
+            "LPs_destacados": ["European Investment Fund (EIF)", "FondICO Global", "Institut Català de Finances (ICF)", "Prosegur", "Draper Esprit"]
+        }
+    },
+    {
+        "nombre": "Prosegur Tech Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Pío XII, 6, 28016 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.462778,
+            "longitud": -3.686667
+        },
+        "informacion": {
+            "tamaño_fondo": "€30,000,000",
+            "fecha_creacion": "4-jul-2019",
+            "trimestre": "Q3-2019",
+            "año": "2019",
+            "sectores": ["Security", "Cyber-security", "Fintech"],
+            "LPs_destacados": ["Prosegur"]
+        }
+    },
+    {
+        "nombre": "Inveready",
+        "ciudad": "Barcelona",
+        "direccion": "Avinguda Diagonal, 654, 08034 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.391944,
+            "longitud": 2.137222
+        },
+        "informacion": {
+            "tamaño_fondo": "€54,000,000",
+            "fecha_creacion": "15-jun-2019",
+            "trimestre": "Q2-2019",
+            "año": "2019",
+            "sectores": ["AI", "Bigdata", "IoT", "Cybersecurity", "Fintech", "Adtech", "Enterprise software"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "Creas Impacto",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 110, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.435000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€16,000,000",
+            "fecha_creacion": "26-nov-2018",
+            "trimestre": "Q4-2018",
+            "año": "2018",
+            "sectores": ["Social impact"],
+            "LPs_destacados": ["European Investment Fund (EIF)"]
+        }
+    },
+    {
+        "nombre": "Repsol Corporate Venturing",
+        "ciudad": "Madrid",
+        "direccion": "Calle Méndez Álvaro, 44, 28045 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.394389,
+            "longitud": -3.683722
+        },
+        "informacion": {
+            "tamaño_fondo": "€85,000,000",
+            "fecha_creacion": "28-Aug-2018",
+            "trimestre": "Q3-2018",
+            "año": "2018",
+            "sectores": ["Mobility", "Circular economy", "New materials", "New manufacturing"],
+            "LPs_destacados": ["Repsol"]
+        }
+    },
+    {
+        "nombre": "Cardumen Capital",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 94, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.435278,
+            "longitud": -3.683611
+        },
+        "informacion": {
+            "tamaño_fondo": "€56,000,000",
+            "fecha_creacion": "19-jul-2018",
+            "trimestre": "Q3-2018",
+            "año": "2018",
+            "sectores": ["AI", "Cybersecurity", "IoT", "Software infrastructure", "Big data"],
+            "LPs_destacados": ["Banco Sabadell (InnoCell)", "Repsol"]
+        }
+    },
+    {
+        "nombre": "Sabadell Selección Ventures",
+        "ciudad": "Barcelona",
+        "direccion": "Plaça de Sant Jaume, 5, 08002 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.387111,
+            "longitud": 2.170111
+        },
+        "informacion": {
+            "tamaño_fondo": "€30,000,000",
+            "fecha_creacion": "6-feb-2017",
+            "trimestre": "Q1-2017",
+            "año": "2017",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Banco Sabadell clients"]
+        }
+    },
+    {
+        "nombre": "SeedRocket 4Founders Capital",
+        "ciudad": "Barcelona",
+        "direccion": "Carrer de Muntaner, 100, 08036 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.390833,
+            "longitud": 2.152500
+        },
+        "informacion": {
+            "tamaño_fondo": "€12,000,000",
+            "fecha_creacion": "16-nov-2016",
+            "trimestre": "Q4-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": []
+        }
+    },
+    {
+        "nombre": "JME Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Velázquez, 55, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.430000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€38,300,000",
+            "fecha_creacion": "16-oct-2016",
+            "trimestre": "Q4-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Fond-ICO", "José Manuel Entrecanales"]
+        }
+    },
+    {
+        "nombre": "K Fund",
+        "ciudad": "Madrid",
+        "direccion": "Calle Juan Bravo, 10, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.432500,
+            "longitud": -3.683056
+        },
+        "informacion": {
+            "tamaño_fondo": "€50,000,000",
+            "fecha_creacion": "16-oct-2016",
+            "trimestre": "Q4-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["European Investment Fund (EIF)"]
+        }
+    },
+    {
+        "nombre": "Kibo Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 39, 28001 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.426111,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€71,000,000",
+            "fecha_creacion": "30-Sep-2016",
+            "trimestre": "Q3-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["European Investment Fund (EIF)", "Telefonica Open Future SLU", "Innvierte Economía Sostenible", "Fond-ICO", "Criteria Venture Capital (La Caixa)"]
+        }
+    },
+    {
+        "nombre": "Seaya Ventures",
+        "ciudad": "Madrid",
+        "direccion": "Calle Alcalá, 54, 28014 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.419056,
+            "longitud": -3.688344
+        },
+        "informacion": {
+            "tamaño_fondo": "€103,000,000",
+            "fecha_creacion": "1-jun-2016",
+            "trimestre": "Q2-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["Draper Esprit", "Sun Mountain Capital"]
+        }
+    },
+    {
+        "nombre": "Swanlaab Giza Venture Fund",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Almagro, 3, 28010 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.429167,
+            "longitud": -3.692500
+        },
+        "informacion": {
+            "tamaño_fondo": "€40,000,000",
+            "fecha_creacion": "29-may-2016",
+            "trimestre": "Q2-2016",
+            "año": "2016",
+            "sectores": ["Generalist"],
+            "LPs_destacados": ["CDTI"]
+        }
+    },
+    {
+        "nombre": "Bullnet Capital",
+        "ciudad": "Madrid",
+        "direccion": "Calle de Serrano, 55, 28006 Madrid, España",
+        "coordenadas": {
+            "latitud": 40.430000,
+            "longitud": -3.687500
+        },
+        "informacion": {
+            "tamaño_fondo": "€42,000,000",
+            "fecha_creacion": "10-feb-2016",
+            "trimestre": "Q1-2016",
+            "año": "2016",
+            "sectores": ["Generalist", "B2B"],
+            "LPs_destacados": ["European Investment Fund (EIF)"]
+        }
+    },
+    {
+        "nombre": "Sabadell Venture Capital",
+        "ciudad": "Barcelona",
+        "direccion": "Calle Balmes, 70, 08007 Barcelona, España",
+        "coordenadas": {
+            "latitud": 41.387778,
+            "longitud": 2.164722
+        },
+        "informacion": {
+            "tamaño_fondo": "€25,000,000",
+            "fecha_creacion": "28-Jan-2016",
+            "trimestre": "Q1-2016",
+            "año": "2016",
+            "sectores": ["Ecommerce", "Software", "Fintech", "Healthtech"],
+            "LPs_destacados": ["Banco Sabadell"]
+        }
+    }
+]

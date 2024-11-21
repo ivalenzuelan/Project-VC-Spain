@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mapa de Venture Capitals</title>
+    
+        <!-- Leaflet Main Library -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    
+        <!-- MarkerCluster Library -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+        <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    
+        <!-- Sidebar Library -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet-sidebar-v2/css/leaflet-sidebar.min.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
+        <script src="https://unpkg.com/leaflet-sidebar-v2/js/leaflet-sidebar.min.js"></script>
+    
+        <!-- Font Awesome for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+        <style>
+            #map {
+                height: 100vh;
+            }
+            .custom-icon {
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+            }
+            body {
+                visibility: hidden;
+            }
+            body.loaded {
+                visibility: visible;
+            }
+        </style>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                document.body.classList.add('loaded');
+            });
+        </script>
+    </head>
+    
+    
+    <body>
+        <h1 style="text-align:center;">Mapa de Venture Capitals</h1>
+        <div id="map"></div>
+        
+        <!-- Sidebar -->
+        <div id="sidebar" class="leaflet-sidebar collapsed">
+            <div class="leaflet-sidebar-tabs">
+                <ul>
+                    <li><a href="#vc-list" title="Venture Capitals"><i class="fas fa-building"></i></a></li>
+                </ul>
+            </div>
+            <div class="leaflet-sidebar-content">
+                <div id="vc-list">
+                    <h1>Venture Capitals</h1>
+                    <ul id="vc-items"></ul>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Map.js Script -->
+        <script src="map.js"></script>
+    </body>
+    
+</html>
