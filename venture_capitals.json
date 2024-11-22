@@ -1,0 +1,277 @@
+[
+    {
+        "Name": "Kibo Ventures",
+        "Info": "Invests in early to growth-stage tech, SaaS, and digital media startups. Supported companies include Flywire, Jobandtalent, and Carto.",
+        "Logo Image": "No image found for: Kibo Ventures",
+        "Platform": "Technology, SaaS",
+        "Use Cases": "Scalable Tech Solutions",
+        "Resources": "Strategic Guidance",
+        "Ciudad": "Madrid",
+        "Direccion": "Calle de Zurbano, 92, Chamberí, 28003 Madrid, Spain",
+        "Longitud": 40.4385964,
+        "Latitud": -3.692717,
+        "Fondos": [
+            {
+                "Nombre": "Kibo Ventures II",
+                "Fecha": "2016",
+                "Tamaño": "€71M",
+                "Enfoque": "Generalist"
+            },
+            {
+                "Nombre": "Kibo Ventures III",
+                "Fecha": "2020",
+                "Tamaño": "€100M",
+                "Enfoque": "Generalist"
+            },
+            {
+                "Nombre": "Kibo Ventures Opp",
+                "Fecha": "2020",
+                "Tamaño": "€55M",
+                "Enfoque": "Generalist"
+            }
+        ]
+    },
+    {
+        "Name": "Inveready",
+        "Info": "Offers capital in early stages with funds for tech, life sciences, and venture debt.",
+        "Logo Image": "No image found for: Inveready",
+        "Platform": "Technology, Life Sciences",
+        "Use Cases": "Innovation Funding",
+        "Resources": "Venture Debt",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Serrano, 111, Chamartín, 28006 Madrid, Spain",
+        "Longitud": 40.4402822,
+        "Latitud": -3.686559,
+        "Fondos": [
+            {
+                "Nombre": "Inveready III",
+                "Fecha": "2019",
+                "Tamaño": "€54M",
+                "Enfoque": "AI, Bigdata, IoT, Fintech"
+            }
+        ]
+    },
+    {
+        "Name": "Seaya Ventures",
+        "Info": "Invests in global tech companies such as Glovo, Cabify, and Wallapop, managing €600M+ across 5 funds.",
+        "Logo Image": "No image found for: Seaya Ventures",
+        "Platform": "Global Tech Companies",
+        "Use Cases": "High-Growth, Market Leadership",
+        "Resources": "Strategic Guidance",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Alcalá, 54, 1ºD, Retiro, 28014 Madrid, Spain",
+        "Longitud": 40.4193967,
+        "Latitud": -3.6908559,
+        "Fondos": [
+            {
+                "Nombre": "Seaya Ventures II",
+                "Fecha": "2016",
+                "Tamaño": "€103M",
+                "Enfoque": "Generalist"
+            },
+            {
+                "Nombre": "Seaya Ventures III",
+                "Fecha": "2020",
+                "Tamaño": "€165M",
+                "Enfoque": "Generalist"
+            },
+            {
+                "Nombre": "Seaya Andromeda",
+                "Fecha": "2022",
+                "Tamaño": "€130M",
+                "Enfoque": "GreenTech, Circular Economy"
+            }
+        ]
+    },
+    {
+        "Name": "K Fund",
+        "Ciudad": "Madrid",
+        "Direccion": "P.º de la Castellana, 42, Salamanca, 28046 Madrid, Spain",
+        "Longitud": 40.4333689,
+        "Latitud": -3.6876469,
+        "Info": "Backs founders in Southern Europe and Latin America, focusing on SaaS and digital media startups.",
+        "Platform": "SaaS, Digital Media",
+        "Use_Cases": "Early-Stage Investments",
+        "Resources": "Seed Support Network",
+        "Fondos": [
+            {
+                "Nombre": "K Fund I",
+                "Fecha": "2016",
+                "Tamaño": "€50M",
+                "Enfoque": "Seed Investments"
+            },
+            {
+                "Nombre": "K Fund II",
+                "Fecha": "2020",
+                "Tamaño": "€70M",
+                "Enfoque": "Early-Stage Tech"
+            },
+            {
+                "Nombre": "Leadwind",
+                "Fecha": "2023",
+                "Tamaño": "€237M",
+                "Enfoque": "AI, IoT, 5G"
+            }
+        ]
+    },
+    {
+        "Name": "Mundi Ventures",
+        "Info": "Focuses on deep tech, insurtech, and fintech startups, supporting global companies like Clarity AI and CoverWallet.",
+        "Logo Image": "No image found for: Mundi Ventures",
+        "Platform": "Fintech, Insurtech",
+        "Use Cases": "Innovation, Global Expansion",
+        "Resources": "Capital, Mentorship",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Piamonte, 14, Centro, 28004 Madrid, Spain",
+        "Longitud": 40.4229614,
+        "Latitud": -3.6949329
+    },
+    {
+        "Name": "Cemex Ventures",
+        "Info": "The venture arm of CEMEX focuses on revolutionizing construction with tech and sustainable solutions.",
+        "Logo Image": "No image found for: Cemex Ventures",
+        "Platform": "Construction, Technology",
+        "Use Cases": "Construction Tech",
+        "Resources": "Industry Expertise",
+        "Ciudad": "Madrid",
+        "Direccion": "C. Hern\u00e1ndez de Tejada, 1, Edificio 5B, Cdad. Lineal, 28027 Madrid, Spain",
+        "Longitud": 40.4474237,
+        "Latitud": -3.6517097
+    },
+    {
+        "Name": "BeAble Capital",
+        "Info": "Specializes in deep tech and industrial technologies. Supports sustainable solutions bridging scientific innovation and market applications.",
+        "Logo Image": "No image found for: BeAble Capital",
+        "Platform": "Deep Tech",
+        "Use Cases": "Sustainability",
+        "Resources": "Technological Advancement",
+        "Ciudad": "Madrid",
+        "Direccion": "Calle de Génova, 11, 1º Izq, Chamberí, 28004 Madrid, Spain",
+        "Longitud": 40.4272115,
+        "Latitud": -3.6942244,
+        "Fondos": [
+            {
+                "Nombre": "BeAble II",
+                "Fecha": "2023",
+                "Tamaño": "€50M",
+                "Enfoque": "Deep Science"
+            }
+        ]
+    },
+    {
+        "Name": "Swanlaab Venture Factory",
+        "Info": "Invests in B2B startups, emphasizing mentorship and scalability.",
+        "Logo Image": "No image found for: Swanlaab Venture Factory",
+        "Platform": "B2B",
+        "Use Cases": "Market Validation",
+        "Resources": "Mentorship",
+        "Ciudad": "Madrid",
+        "Direccion": "Av. de Bruselas, 7, 28108 Alcobendas, Madrid, Spain",
+        "Longitud": 40.5307194,
+        "Latitud": -3.6333719,
+        "Fondos": [
+            {
+                "Nombre": "Swanlaab I",
+                "Fecha": "2023",
+                "Tamaño": "€45M",
+                "Enfoque": "B2B"
+            }
+        ]
+    },
+    {
+        "Name": "Big Sur Ventures",
+        "Info": "Invests in fintech and consumer startups. Supported companies include Spotahome and Glamping Hub.",
+        "Logo Image": "No image found for: Big Sur Ventures",
+        "Platform": "Fintech, Consumer",
+        "Use Cases": "Disruptive Technologies",
+        "Resources": "Scalable Models",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Orense, 33, Tetu\u00e1n, 28020 Madrid, Spain",
+        "Longitud": 40.4531402,
+        "Latitud": -3.6951049
+    },
+    {
+        "Name": "Cabiedes & Partners",
+        "Info": "Supports early-to-growth tech and fintech startups like BlaBlaCar.",
+        "Logo Image": "No image found for: Cabiedes & Partners",
+        "Platform": "Fintech, Tech",
+        "Use Cases": "High-Growth Potential",
+        "Resources": "Mentorship, Funding",
+        "Ciudad": "Madrid",
+        "Direccion": "P.\u00ba de la Castellana, 210, Chamart\u00edn, 28046 Madrid, Spain",
+        "Longitud": 40.4632631,
+        "Latitud": -3.6889552
+    },
+    {
+        "Name": "Faraday Venture Partners",
+        "Info": "A member-driven model for investing in tech, healthcare, and digital innovation startups.",
+        "Logo Image": "No image found for: Faraday Venture Partners",
+        "Platform": "Healthcare, Tech",
+        "Use Cases": "Innovation",
+        "Resources": "Member-Driven Investment",
+        "Ciudad": "Madrid",
+        "Direccion": "P.\u00ba de La Habana, 16, 1er Piso, Chamart\u00edn, 28036 Madrid, Spain",
+        "Longitud": 40.4481198,
+        "Latitud": -3.6896313
+    },
+    {
+        "Name": "Axon Partners Group",
+        "Info": "Combines investment and advisory services for tech startups in emerging markets.",
+        "Logo Image": "No image found for: Axon Partners Group",
+        "Platform": "Tech Consulting",
+        "Use Cases": "Market Expansion",
+        "Resources": "Advisory Support",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Sagasta, 18, 3\u00ba Planta, Centro, 28004 Madrid, Spain",
+        "Longitud": 40.428121,
+        "Latitud": -3.698695
+    },
+    {
+        "Name": "Bewater Funds",
+        "Info": "Specializes in secondary market investments for private company shareholders.",
+        "Logo Image": "No image found for: Bewater Funds",
+        "Platform": "Fintech, Secondary Markets",
+        "Use Cases": "Shareholder Liquidity",
+        "Resources": "Investor Transparency",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Serrano, 213, 1\u00ba, B1, Chamart\u00edn, 28016 Madrid, Spain",
+        "Longitud": 40.4541413,
+        "Latitud": -3.6791512
+    },
+    {
+        "Name": "Eatable Adventures",
+        "Info": "Invests in food tech startups to drive innovation in global food technologies.",
+        "Logo Image": "No image found for: Eatable Adventures",
+        "Platform": "Food Tech",
+        "Use Cases": "Food Innovation",
+        "Resources": "Industry Expertise",
+        "Ciudad": "Madrid",
+        "Direccion": "P.\u00ba de La Habana, 1, Planta 15, Chamart\u00edn, 28036 Madrid, Spain",
+        "Longitud": 40.4481352,
+        "Latitud": -3.6900764
+    },
+    {
+        "Name": "Conexo Ventures",
+        "Info": "Supports European tech companies scaling to the U.S.",
+        "Logo Image": "No image found for: Conexo Ventures",
+        "Platform": "Cross-Border Investments",
+        "Use Cases": "Global Scaling",
+        "Resources": "Capital, Strategic Guidance",
+        "Ciudad": "Madrid",
+        "Direccion": "C. de Montalb\u00e1n, 7, Piso 3, Retiro, 28006 Madrid, Spain",
+        "Longitud": 40.4183353,
+        "Latitud": -3.6900718
+    },
+    {
+        "Name": "Columbus Venture Partners",
+        "Info": "Focuses on biotech and life sciences startups, leveraging research networks for healthcare innovation.",
+        "Logo Image": "No image found for: Columbus Venture Partners",
+        "Platform": "Biotech, Life Sciences",
+        "Use Cases": "HealthTech Innovations",
+        "Resources": "Strategic Insight",
+        "Ciudad": "Madrid",
+        "Direccion": "Calle de Jos\u00e9 Abascal, 58, Chamber\u00ed, 28003 Madrid, Spain",
+        "Longitud": 40.4379037,
+        "Latitud": -3.691692
+    }
+]
