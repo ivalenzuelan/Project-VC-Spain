@@ -13,10 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
         attribution: '© OpenStreetMap contributors &copy; CARTO',
         subdomains: 'abcd',
         maxZoom: 16,
-        minZoom: 8 // Prevent zooming out too far
+        minZoom: 8
     }).addTo(map);
 
-    const customIcon = L.divIcon({
+    // Define custom icons for VCs and startups
+    const vcIcon = L.divIcon({
         className: 'custom-icon',
         html: `
             <div style="
@@ -37,43 +38,42 @@ document.addEventListener('DOMContentLoaded', () => {
         popupAnchor: [0, -30]
     });
 
-    const markers = L.markerClusterGroup({
-        maxClusterRadius: 25 // Reduce the radius (default is 80)
+    const startupIcon = L.divIcon({
+        className: 'startup-icon',
+        html: `
+            <div style="
+                background-color: #e74c3c;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                font-size: 12px;
+                font-weight: bold;
+            ">S</div>
+        `,
+        iconSize: [25, 25],
+        iconAnchor: [12.5, 25],
+        popupAnchor: [0, -25]
     });
 
+    // Create separate marker cluster groups
+    const vcMarkers = L.markerClusterGroup({ maxClusterRadius: 25 });
+    const startupMarkers = L.markerClusterGroup({ maxClusterRadius: 25 });
+    const connectionsLayer = L.layerGroup(); // Crear capa para conexiones
+
+
+    // Fetch and display VCs
     fetch('venture_capitals.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
-            console.log("Total VCs loaded:", data.length); // Log the total VCs
             data.forEach(vc => {
-                // Destructure and provide default values for missing fields
-                const {
-                    Name = "Unknown",
-                    Ciudad = "Unknown",
-                    Direccion = "No address provided",
-                    Longitud,
-                    Latitud,
-                    Info = "No information available",
-                    Platform = "Not specified",
-                    Use_Cases = "Not specified",
-                    Resources = "Not specified",
-                    Fondos = []
-                } = vc;
+                const { Name, Ciudad, Direccion, Longitud, Latitud, Info, Platform, Use_Cases, Resources, Fondos = [] } = vc;
 
-                console.log(`Processing: ${Name}`); // Log each VC being processed
+                if (!Latitud || !Longitud || isNaN(Latitud) || isNaN(Longitud)) return;
 
-                // Skip if coordinates are invalid
-                if (!Latitud || !Longitud || isNaN(Latitud) || isNaN(Longitud)) {
-                    console.warn(`Invalid coordinates for ${Name}: (${Longitud}, ${Latitud})`);
-                    return;
-                }
-
-                // Generate the "Fondos" HTML if present
                 const fondosHTML = Fondos.length > 0
                     ? Fondos.map(fondo => `
                         <strong>${fondo.Nombre}</strong><br>
@@ -83,7 +83,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     `).join('')
                     : `<em>No funds available for this VC.</em>`;
 
-                // Popup content
                 const popupContent = `
                     <strong>${Name}</strong><br>
                     <em>${Ciudad}</em><br>
@@ -92,37 +91,171 @@ document.addEventListener('DOMContentLoaded', () => {
                     Platform: ${Platform}<br>
                     Use Cases: ${Use_Cases}<br>
                     Resources: ${Resources}<br><br>
-                    <button id="fondos-${Name.replace(/\s/g, '')}" style="
-                        background-color: #3498db;
-                        color: white;
-                        border: none;
-                        padding: 5px 10px;
-                        border-radius: 4px;
-                        cursor: pointer;
-                    ">View Funds</button>
                     <div id="fondos-list-${Name.replace(/\s/g, '')}" style="display: none; margin-top: 10px;">
                         ${fondosHTML}
                     </div>
                 `;
 
-                // Create marker
-                const marker = L.marker([Longitud, Latitud], { icon: customIcon }).bindPopup(popupContent);
-                markers.addLayer(marker);
-
-                // Add toggle event for "View Funds" button
-                marker.on('popupopen', () => {
-                    const button = document.getElementById(`fondos-${Name.replace(/\s/g, '')}`);
-                    const fondosList = document.getElementById(`fondos-list-${Name.replace(/\s/g, '')}`);
-
-                    if (button && fondosList) {
-                        button.addEventListener('click', () => {
-                            fondosList.style.display = fondosList.style.display === 'none' ? 'block' : 'none';
-                        });
-                    }
-                });
+                const marker = L.marker([Longitud, Latitud], { icon: vcIcon }).bindPopup(popupContent);
+                vcMarkers.addLayer(marker);
             });
 
-            map.addLayer(markers); // Add markers to the map
+            map.addLayer(vcMarkers);
         })
-        .catch(error => console.error('Error loading the JSON data:', error));
+        .catch(console.error);
+
+    // Fetch and display startups
+    fetch('startups.json')
+    .then(response => response.json())
+    .then(data => {
+        data.forEach(startup => {
+            const { Name, longitud, latitud, Info, Website } = startup;
+
+            if (!longitud || !latitud || isNaN(longitud) || isNaN(latitud)) return;
+
+            const popupContent = `
+                <strong>${Name}</strong><br>
+                Info: ${Info}<br>
+                Website: <a href="${Website}" target="_blank">${Website}</a><br>
+                <button id="show-connections-${Name.replace(/\s/g, '')}" style="
+                    background-color: #3498db;
+                    color: white;
+                    border: none;
+                    padding: 5px 10px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                ">Ver Conexiones</button>
+            `;
+
+            const marker = L.marker([longitud, latitud], { icon: startupIcon }).bindPopup(popupContent);
+            startupMarkers.addLayer(marker);
+
+            marker.on('popupopen', () => {
+                const button = document.getElementById(`show-connections-${Name.replace(/\s/g, '')}`);
+                if (button) {
+                    button.addEventListener('click', () => {
+                        showConnectionsForStartup([longitud, latitud]);
+                    });
+                }
+            });
+        });
+
+        map.addLayer(startupMarkers);
+    })
+    .catch(console.error);
+
+    function showConnectionsForStartup(startupCoords) {
+        connectionsLayer.clearLayers(); // Limpiar conexiones anteriores
+    
+        fetch('connections.json')
+            .then(response => response.json())
+            .then(connections => {
+                connections.forEach(({ vc, startup }) => {
+                    if (startup[0] === startupCoords[0] && startup[1] === startupCoords[1]) {
+                        L.polyline([vc, startup], {
+                            color: 'blue',
+                            weight: 2,
+                            dashArray: '5, 10',
+                            opacity: 0.8
+                        }).addTo(connectionsLayer);
+                    }
+                });
+    
+                map.addLayer(connectionsLayer);
+            })
+            .catch(console.error);
+    }
+
+    const toggleConnections = document.createElement('div');
+toggleConnections.innerHTML = `
+    <label><input type="checkbox" id="toggleConnections"> Mostrar todas las conexiones</label>
+`;
+filterControl.appendChild(toggleConnections);
+
+document.getElementById('toggleConnections').addEventListener('change', (e) => {
+    if (e.target.checked) {
+        connectionsLayer.clearLayers();
+
+        fetch('connections.json')
+            .then(response => response.json())
+            .then(connections => {
+                connections.forEach(({ vc, startup }) => {
+                    L.polyline([vc, startup], {
+                        color: 'blue',
+                        weight: 2,
+                        opacity: 0.8
+                    }).addTo(connectionsLayer);
+                });
+
+                map.addLayer(connectionsLayer);
+            })
+            .catch(console.error);
+    } else {
+        map.removeLayer(connectionsLayer);
+    }
+});
+
+    
+    // Add connections between VCs and startups
+    fetch('connections.json')
+    .then(response => response.json())
+    .then(connections => {
+        connections.forEach(({ vc, startup }) => {
+            // Dibujar la línea entre VC y Startup
+            L.polyline([vc, startup], {
+                color: 'blue',
+                weight: 1,
+                opacity: 0.8
+            }).addTo(map);
+
+            // Calcular el punto intermedio
+            const midPoint = [
+                (vc[0] + startup[0]) / 2,
+                (vc[1] + startup[1]) / 2
+            ];
+
+            // Crear un círculo en movimiento
+            const movingCircle = L.circle(midPoint, {
+                radius: 5,
+                color: 'red',
+                fillColor: 'red',
+                fillOpacity: 0.9
+            }).addTo(map);
+
+            // Animar el movimiento del círculo
+            let toggle = true;
+            setInterval(() => {
+                movingCircle.setLatLng(toggle ? vc : startup);
+                toggle = !toggle;
+            }, 1000); // Cambiar cada segundo
+        });
+    })
+    .catch(console.error);
+
+
+    // Add filter controls
+    const filterControl = document.createElement('div');
+    filterControl.innerHTML = `
+        <div style="position: absolute; top: 10px; left: 10px; z-index: 1000; background: white; padding: 10px; border-radius: 5px;">
+            <label><input type="checkbox" id="showVC" checked> Mostrar VCs</label><br>
+            <label><input type="checkbox" id="showStartups" checked> Mostrar Startups</label>
+        </div>
+    `;
+    document.body.appendChild(filterControl);
+
+    document.getElementById('showVC').addEventListener('change', (e) => {
+        if (e.target.checked) {
+            map.addLayer(vcMarkers);
+        } else {
+            map.removeLayer(vcMarkers);
+        }
+    });
+
+    document.getElementById('showStartups').addEventListener('change', (e) => {
+        if (e.target.checked) {
+            map.addLayer(startupMarkers);
+        } else {
+            map.removeLayer(startupMarkers);
+        }
+    });
 });
